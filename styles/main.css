@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(0, 0%, 99%);
+
+}
+h3 {
+  margin-left: 60px;
+
+}
+h1 {
+  font-family: "Courier New";
+  text-align: center;
+  color: black;
+
+  padding-top: 50px;
+  padding-bottom: 10px;
+
+}
+article {
+  margin-left: 60px;
+  margin-right: 800px;
+  text-align: justify;
+
+}
+a {
+  text-decoration: none;
+  text-align: center;
+
+}
+
+  .active {
+    background-color: #4CAF50;
+}
+
+nav {
+  font-family: Baskerville;
+  font-size: 12;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 10px;
+}
