@@ -22,8 +22,7 @@ h1 {
 
 article {
   margin-left: 60px;
-  margin-right: 800px;
-  text-align: justify;
+  text-align: justify, center;
 }
 
 a {
