@@ -1,16 +1,17 @@
 body {
   background-color: hsl(211, 100%, 98%);
   font-family: Baskerville;
-
 }
 
   body.index{
     background-color: white;
 }
-h3 {
-  margin-left: 60px;
 
+h4 {
+  margin-left: 60px;
+  font-family: Baskerville;
 }
+
 h1 {
   font-family: "Courier New";
   text-align: center;
@@ -23,8 +24,8 @@ article {
   margin-left: 60px;
   margin-right: 800px;
   text-align: justify;
-
 }
+
 a {
   text-decoration: none;
   text-align: center;
