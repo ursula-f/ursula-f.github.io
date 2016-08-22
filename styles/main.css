@@ -55,6 +55,17 @@ ul {
   width: 100%;
 }
 
+#techlist li {
+  display:list-item;
+}
+#navbar ul, li {
+  display: inline;
+  padding: 10px;
+}
+
+
+}
+
 li {
   list-style-type: none;
   display: inline;
