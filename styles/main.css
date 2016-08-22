@@ -32,12 +32,21 @@ a {
   text-align: center;
   color: #a6a6a6;
 }
+a:hover, a:active {
+  color: #76a8cd;
+}
 
 nav {
   font-family: Baskerville;
   font-size: 12;
   text-align: center;
   text-decoration: none;
+}
+
+ul {
+  position:fixed;
+  top: 0;
+  width: 100%;
 }
 
 li {
