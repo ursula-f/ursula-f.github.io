@@ -1,9 +1,16 @@
+/*div.sideimage {
+  text-align: right;
+}
+side images for different pages*/
+
 *{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
 }
+
+/*general background page color*/
 body {
   background-color: hsl(211, 100%, 98%);
   font-family: Baskerville;
@@ -13,10 +20,6 @@ body {
     background-color: white;
 }
 
-h4 {
-  margin-left: 60px;
-  font-family: Baskerville;
-}
 
 h1 {
   font-family: "Courier New";
@@ -26,9 +29,9 @@ h1 {
   padding-bottom: 10px;
 }
 
-article {
+.content {
   margin-left: 60px;
-margin-right: 800px;
+  margin-right: 800px;
   text-align: justify;
 
 }
@@ -48,16 +51,18 @@ nav {
   text-align: center;
   text-decoration: none;
 }
-
+/*for navigation*/
 ul {
   position:fixed;
   top: 0;
   width: 100%;
 }
 
+
 #techlist li {
   display:list-item;
 }
+
 #navbar ul, li {
   display: inline;
   padding: 10px;
@@ -77,7 +82,15 @@ sub {
   margin-left: 60px;
 }
 
+/*IMAGES*/
 IMG.rabbits {
     display: block;
     margin-left: auto;
     margin-right: auto }
+
+/*.sideimage {
+  float: right;
+  position: static;
+  height:
+  width:
+}*/
