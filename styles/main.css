@@ -1,0 +1,17 @@
+footer {
+  font-family: 'Overclock SC';
+  text-align: center;
+}
+
+img.homeimage {
+  display: block;
+  margin: 0 auto;
+}
+
+ul.nav li ul li {
+  list-style: none;
+}
+
+ul.nav {
+  list-style: none;
+}
