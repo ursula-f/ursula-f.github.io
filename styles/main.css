@@ -1,17 +1,93 @@
 footer {
-  font-family: 'Overclock SC';
+  font-family: 'Baskerville';
   text-align: center;
 }
+
+/*IMAGES*/
 
 img.homeimage {
   display: block;
   margin: 0 auto;
+  top: 100px;
+  padding: 20px;
 }
 
-ul.nav li ul li {
-  list-style: none;
+@media (max-width: 430px) {
+  img.homeimage {
+    display: none;
+  }
 }
 
-ul.nav {
-  list-style: none;
+/*NAVBAR*/
+#navwrap {
+    width: 13.3333333333%;
+    height: 20px;
+    padding-bottom: 10px;
+    margin: 0; /* no space between sides of the screen and the menu */
+    z-index: 1; /* Makes sure that the menu stays on top of other page elements */
+    position: fixed;
+    background-color: white;
+  }
+
+* {
+			font-variant: small-caps;
+		}
+
+		#main_nav ul {
+			background: white;
+			text-align: center;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		#main_nav li {
+			float: left;
+			position: relative;
+			width: 100px;
+			list-style: none;
+			-webkit-transition: .5s;
+			transition: .5s;
+		}
+
+		#main_nav a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 5px 5px;
+			color:  #a6a6a6;
+		}
+
+		#main_nav a:hover {
+		color:#a5c8ec
 }
+		#main_nav ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		#main_nav ul ul ul {
+			left: 20px;
+			top: 0;
+		}
+
+		#main_nav li:hover, #main_nav li:hover li {
+			background: white;
+			color:#a5c8ec;
+		}
+
+		#main_nav li li:hover, #main_nav li li:hover li {
+			background: white;
+			color:#a5c8ec;
+		}
+
+		#main_nav li li li:hover {
+			background: white;
+			color:#a5c8ec;
+		}
+
+		#main_nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+		}
