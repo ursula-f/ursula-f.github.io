@@ -12,27 +12,25 @@ img.homeimage {
   padding: 20px;
 }
 
-@media (max-width: 430px) {     /*MAKES IMAGE DISAPPEAR*/
-  img.homeimage {
-    display: none;
-  }
-}
 
 /*NAVBAR*/
 
 /* Larger than mobile */
-@media (max-width: 400px) {
-  .navwrap {
+@media (max-width: 450px) {
+  img.homeimage {
+    display: none;
+  }
+  ul, li {
+    font-size: 16px;
     width:100%;
     text-align: center;
   }
 }
 
-#navwrap {
-    width: 13.3333333333%;
+.navwrap {
     padding-bottom: 0px;
     z-index: 1; /* Makes sure that the menu stays on top of other page elements */
-    position: fixed; top:13.3333%; left:13.3333%
+    position: fixed; top:10px;
     background-color: white;
     font-variant:small-caps;
   }
@@ -45,27 +43,25 @@ img.homeimage {
 			-webkit-transition: .5s;
 			transition: .5s;
       position: relative;
-      display:block;
 		}
 
 		#main_nav li {
-			float: right;
-			position: relative;
-			width: 100px;
-			list-style: none;
-			-webkit-transition: .5s;
-			transition: .5s;
+		position: relative;
+		width: 100px;
+    list-style: none;
+		-webkit-transition: .5s;
+		transition: .5s;
+    text-align:center;
 		}
 
 		#main_nav a {
-			display: inline-block;
-			text-decoration: none;
-			padding:0;
-			color:  #a6a6a6;
-      position: relative;
+		text-decoration: none;
+		padding:0;
+		color:  #a6a6a6;
+    position: relative;
 		}
 
-		#main_nav a:hover {
+		#main_nav a:hover, a:active{
 		color:#a5c8ec
 }
 		#main_nav ul ul {
@@ -85,7 +81,7 @@ img.homeimage {
 			background: white;
 			color:#a5c8ec;
       position:relative;
-      display: block; left
+      display: block;
 
 		}
 
