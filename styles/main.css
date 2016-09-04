@@ -3,7 +3,6 @@
   margin: 10px;
 }
 
-
 .ursula {
   color: #404040;
 }
@@ -41,10 +40,9 @@
 }
 
 .seven.column {
- width: 100%;
+ width: 90%;
  text-align: justify;
  margin: 10px;
- padding-right: 20px;
  }
 
 .twelve.column{
@@ -100,10 +98,8 @@ p {
 .content {
   text-align: justify;
   margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width:64%;
 }
+
 
 .side-image {
   float:right;
@@ -150,6 +146,8 @@ ul {
 
 .seven.column {
   width: 58.3%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .twelve.column{
