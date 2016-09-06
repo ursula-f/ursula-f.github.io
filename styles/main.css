@@ -8,7 +8,7 @@
 }
 
 .header-box {
-  color: #ffffff;
+  color: #fcfcfc;
   border-bottom: solid 2px  #dedeed;
   margin: 10px;
   display: block;
@@ -21,7 +21,7 @@
 }
 
 .nav {
-	background:white;
+	background:#fcfcfc;
   color: #404040;
   border: solid 2px #79b3ec;
   margin: 10px;
@@ -49,10 +49,14 @@
 	width: 100%;
 }
 
+.eight.column{
+	width:100%;
+}
+
 
 
 body.index {
-	background: #ffffff;
+	background: #fcfcfc;
   margin: 20px;
 	color: #3e4f5b;
 }
@@ -142,7 +146,7 @@ ul {
 
 img.wireframe {
 	margin: 0 auto;
-	
+
 }
 
 .three.column{
@@ -169,6 +173,13 @@ img.wireframe {
   width: 58.3%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.eight.column {
+	width: 65.3%;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .twelve.column{
