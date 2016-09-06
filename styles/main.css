@@ -31,7 +31,7 @@
   text-align: center;
 }
 .nav a:active, a:hover {
-	color: #4da1cb;
+	color: #537c90;
 
 }
 
@@ -58,7 +58,6 @@
 body.index {
 	background: #fcfcfc;
   margin: 20px;
-	color: #3e4f5b;
 }
 
 body {
