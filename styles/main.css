@@ -262,3 +262,23 @@ img.wireframe {
 			opacity: 1;
 
 		}
+
+/*code for <pre> on t4 */
+.t4code {
+  border-radius: 7px;
+	border: solid 2px #537c90;
+  background-color: white;
+	font-family: monospace;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: left;
+}
+
+.t4code p {
+	font-family: monospace;
+}
+
+.-t4-code-highlight {
+  color:  #ccefff;
+}
