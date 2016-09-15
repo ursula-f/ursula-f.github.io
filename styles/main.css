@@ -76,7 +76,9 @@ h1 {
 h4 {
   font-family: 'Crimson Text', serif;
   font-variant: small-caps;
-  margin: 10px;
+  margin: 12px;
+	font-size: 18px;
+	font-weight: bold;
 
 }
 
