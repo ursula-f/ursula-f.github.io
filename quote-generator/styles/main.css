@@ -1,0 +1,77 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 72px;
+  font-weight: normal;
+   background: -webkit-linear-gradient(#fff, #f9f9f9, #999, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2px;
+  margin: 2px;
+ }
+
+.quote-box {
+ text-align: center;
+ margin: 10px;
+ padding: 10px;
+}
+
+.orchid {
+  float: left;
+}
+
+
+p {
+  padding: 5px;
+  margin: 5px;
+  float: clear;
+}
+
+#author {
+font-family: 'Poiret One', cursive;
+  color: #8c8f93;
+  font-size: 12px;
+}
+
+#quote {
+  font-family: 'Josefin Slab', serif;
+  color: #8c8f93;
+  font-size: 17px;
+}
+
+
+.buttons {
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+a{
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #8c8f93;
+  position: justify;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #999;
+  font-family: 'Tangerine', cursive;
+  font-size: 27px;
+}
+
+a:hover{
+
+}
